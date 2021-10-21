@@ -25,31 +25,36 @@ function playRound(playerSelection, computerSelection) {
       if (computerSelection == 'rock') {
           return 'Draw!';
       } else if (computerSelection == 'paper') {
+        Bot += 1;
           return 'You lose! Paper beats rock.';
-          Bot += 1;
       } else (computerSelection == 'scissors'); {
+        You += 1;
           return 'You win! Rock beats scissors.';
-          You += 1;
+          
       }
     }
     if (playerSelection == 'paper') {
         if (computerSelection == 'rock') {
-            return 'You win! Paper beats rock.';
             You += 1;
+            return 'You win! Paper beats rock.';
+            
         } else if (computerSelection == 'paper') {
             return 'Draw!';
         } else (computerSelection == 'scissors'); {
-            return 'You lose! Scissors beats paper.';
             Bot += 1;
+            return 'You lose! Scissors beats paper.';
+            
         }
     }
     if (playerSelection == 'scissors') {
         if (computerSelection == 'rock') {
-            return 'You lose! Rock beats scissors.';
             Bot += 1;
+            return 'You lose! Rock beats scissors.';
+            
         } else if (computerSelection == 'paper') {
-            return 'You win! Scissors beats paper.';
             You += 1;
+            return 'You win! Scissors beats paper.';
+            
         } else (computerSelection == 'scissors'); {
             return 'Draw!';
         }
@@ -77,9 +82,13 @@ function finishGame() {
 
 const playerSelection = playerChoice.toLowerCase();
 const computerSelection = computerPlay();
+
 console.log(playRound(playerSelection, computerSelection));
-console.log(You);
-console.log(Bot);
+console.log(playRound(playerSelection, computerSelection));
+console.log(playRound(playerSelection, computerSelection));
+console.log(playRound(playerSelection, computerSelection));
+console.log(playRound(playerSelection, computerSelection));
+console.log(finishGame());
 
 
 </script>
