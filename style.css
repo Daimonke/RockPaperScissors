@@ -1,0 +1,97 @@
+.choices {
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+}
+.results {
+    
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    margin: 20px auto;
+    gap: 30px;
+}
+.yourScore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    color: white;
+    border: solid black;
+    
+}
+.winner h1 {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: solid black;
+}
+.restart {
+    display: flex;
+    margin: 10px auto;
+    width: 50%;
+}
+.restart a {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.computerScore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(128, 0, 0);
+    width: 100%;
+    height: 100%;
+    border: solid black;
+    border-radius: 5px;
+}
+#rock {
+    background-image: url(https://mlg8ncvavrmb.i.optimole.com/4skBQHY-XT1uftcf/w:2000/h:1333/q:100/https://bdt.lt/wp-content/uploads/2021/07/Kalanta-aikstele-2.jpg);
+    width: 100%;
+    height: 100%;
+    color: rgb(150, 23, 23);
+    border: black solid;
+    border-radius: 5px;
+    font-size: 4rem;
+    cursor: pointer;
+}
+#paper {
+    background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?size=626&ext=jpg);
+    width: 100%;
+    height: 100%;
+    color: rgb(150, 23, 23);
+    border: black solid;
+    border-radius: 5px;
+    font-size: 4rem;
+    cursor: pointer;
+}
+#scissors {
+    background-image: url(https://static.turbosquid.com/Preview/2020/06/12__14_05_49/I1.jpg422FA32D-EC4C-4539-AA5F-85665D4EC973Large.jpg);
+    width: 100%;
+    height: 100%;
+    color: rgb(150, 23, 23);
+    border: black solid;
+    border-radius: 5px;
+    font-size: 4rem;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+}
