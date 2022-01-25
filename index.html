@@ -83,11 +83,11 @@ function playRound(playerSelection, computerSelection) {
 
 function finishGame() {
     if (You > Bot) {
-        document.getElementById('gameWinner').innerHTML = 'You won!';
+       return document.getElementById('gameWinner').innerHTML = 'You won!';
     } else if (You < Bot) {
-        document.getElementById('gameWinner').innerHTML = 'You lost..';
+       return document.getElementById('gameWinner').innerHTML = 'You lost..';
     } else ( You === Bot); {
-        document.getElementById('gameWinner').innerHTML = 'Draw.';
+        return document.getElementById('gameWinner').innerHTML = 'Draw.';
     }
 }
 
